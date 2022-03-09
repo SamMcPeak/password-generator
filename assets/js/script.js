@@ -56,4 +56,4 @@ function createPassword() {
 
     // create the button
 
-    generateBtn.addEventListener("click", writePassword)
+    generateBtn.addEventListener("click", createPassword)
