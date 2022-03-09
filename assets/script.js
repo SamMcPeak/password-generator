@@ -1,4 +1,10 @@
-// Assignment code here
+// arrays including the charecters to go into the password 
+let numbers = "0123456789";
+let special = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+let lowercase = "acdefghijklnopqrstuvwxyz";
+let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let allCharecters = "";
+let length = "";
 
 
 // Get references to the #generate element
