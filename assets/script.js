@@ -41,4 +41,19 @@ function createPassword() {
     if (!allCharacters) {alert("Please select at least one character type!");writePassword();
       }
 
-    
+      //bring all the data we colected together into a new string
+
+      let newPassword = '';
+      for (let i = 0; i < length; i++) {
+        newPassword += allCharacters.charAt(Math.floor(Math.random() * allCharacters.length));
+        console.log(newPassword);
+      }
+
+      //send the password to the dom html element
+      let passowrd = document.querySelector("#password");
+      password.value = newPassword;
+    }
+
+    // create the button
+
+    generateBtn.addEventListener("click", writePassword)
