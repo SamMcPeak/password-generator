@@ -4,21 +4,16 @@
 
 ## Link to site
 
-
+https://sammcpeak.github.io/password-generator/
 
 ## Description
 
-Password generator uses Javascript to ask password prompts and generate a password that complies with the users criteria. 
+use this website to create a new password! this website uses javascript to take in the info you give it and craft you the perfect password! 
 
 ## Installation
 
-Submit pull request to download code, to use for your own purposes.
-To recommend larger changes, submit an issue.
+Submit pull request to download code.
 
 ## Usage
 
 Follow the URL to see and interact with the website. Click 'generate password' button to begin. 
-
-## License
-
-No licensing
