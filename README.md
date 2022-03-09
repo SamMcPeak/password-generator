@@ -1,10 +1,10 @@
 # Password Generator
 
-
+<img width="804" alt="passwordpicture" src="https://user-images.githubusercontent.com/97133188/157526153-99e43b01-f2c9-4f50-8a98-131d98f201e6.png">
 
 ## Link to site
 
-[Password Generator live site](https://katensullivan55.github.io/passwordgenerator/)
+
 
 ## Description
 
