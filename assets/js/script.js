@@ -3,7 +3,7 @@ let numbers = "0123456789";
 let special = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
 let lowercase = "acdefghijklnopqrstuvwxyz";
 let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let allCharecters = "";
+let allCharacters = "";
 let length = "";
 
 
@@ -27,7 +27,7 @@ function createPassword() {
     let addUppercase = window.confirm("Do you wwant to include uppercase letters?");
     let addNumbers = window.confirm("Do you want to include numbers?");
     let addSpecial = window.confirm("Do you want to include special characters?");
-
+debugger
 //dependig on what they choose the ifs will add that variable to there password
 
     if (addLowercase) { allCharacters += lowercase;}
@@ -50,7 +50,7 @@ function createPassword() {
       }
 
       //send the password to the dom html element
-      let passowrd = document.querySelector("#password");
+      let password = document.querySelector("#password");
       password.value = newPassword;
     }
 
